@@ -1,0 +1,36 @@
+.personajes{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.personaje{
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+    max-width: 250px;
+}
+
+.personaje h4,
+.personaje h6{
+margin: 0;
+}
+
+.personaje .ficha{
+    display: flex;
+    justify-content: flex-start;
+    margin: 16px 0 0;
+}
+.personaje .ficha .foto{
+    max-width: 100px;
+}
+
+.personaje .ficha .datos{
+    margin-left: 16px;
+}
+
+.personaje .ficha .foto img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}

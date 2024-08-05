@@ -1,0 +1,36 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+.botones{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.success{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.error{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: lightcoral;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
