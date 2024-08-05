@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import logo from './logo.svg';
+/*import logo from './logo.svg';*/
 import './App.css';
 import Header from './components/Header';/*no colocar la extens js */
 /*tareme el componente header desde la ruta para llegar al js */
